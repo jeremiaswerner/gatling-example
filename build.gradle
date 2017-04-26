@@ -1,0 +1,13 @@
+plugins {
+    id "com.github.lkishalmi.gatling" version "0.4.1"
+}
+
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile "io.gatling.highcharts:gatling-charts-highcharts:2.2.5"
+}
